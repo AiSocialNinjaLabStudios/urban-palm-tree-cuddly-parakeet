@@ -1,5 +1,5 @@
 import HuggingFaceService from './huggingfaceService.js';
-
+ 
 /**
  * Code Completion Service
  * Handles code suggestion and analysis using AI models
