@@ -9,50 +9,6 @@ server/services/huggingfaceService.js
 It operates autonomously to manage code execution, code completion, and tool-driven reasoning while persisting data to a MongoDB Atlas instance that can be associated with this repository.
 
 ---
-
-
-Project Structure
-project-root/
-│
-├── src/
-│   ├── code_execution/
-│   │   ├── engine.py
-│   │   └── sandbox.py
-│   │
-│   ├── code_completion/
-│   │   ├── completion.py
-│   │   └── multi_language_support.py
-│   │
-│   ├── tool_integrations/
-│   │   ├── functional_calling.py
-│   │   ├── url_search.py
-│   │   └── structured_formatting.py
-│   │
-│   ├── semantic_reasoning/
-│   │   ├── reasoning_manager.py
-│   │   └── levels.py
-│   │
-│   ├── monitoring_and_logging/
-│   │   ├── self_monitor.py
-│   │   └── github_logging.py
-│   │
-│   └── mongo_integration/
-│       ├── atlas_client.py
-│       └── state_storage.py
-│
-├── tests/
-│   ├── test_code_execution.py
-│   ├── test_code_completion.py
-│   ├── test_tool_integrations.py
-│   ├── test_semantic_reasoning.py
-│   ├── test_monitoring_and_logging.py
-│   └── test_mongo_integration.py
-│
-├── .env.example
-├── requirements.txt
-├── setup.py
-└── README.md
-
 Preparation Steps
 Virtual Environment Setup
 python -m venv venv
